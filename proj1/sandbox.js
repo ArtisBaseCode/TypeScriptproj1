@@ -1,7 +1,9 @@
-var character = 'Artis Ademi';
-console.log(character);
-var inputs = document.querySelectorAll('input');
-console.log(inputs);
-inputs.forEach(function (input) {
-    console.log(input);
+// Arrays
+var names = ['Artis', "Labi", "Arianiti"];
+names.push("Leona", "Gresa");
+names.forEach(function (name) {
+    console.log(name);
 });
+var numbers = [10, 20, 30, 40];
+var mixed = ['ken', 4, 'Artis', 9];
+// Objects
